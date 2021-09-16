@@ -1,0 +1,55 @@
+print("Welcome, please choose a genre from the Jukebox!\n")
+
+print("1. Alternative\n2. Rock\n3. Punk\n")
+print("Enter 1 for Alternative, 2 for Rock, 3 for Punk.")
+choice = input("Enter genre: ")
+
+if choice == '1':
+  print("\nYou have chosen Alternative!")
+  print("\nPlease choose a song!")
+  print("1. Scapegoat Wax - Bloodsweet\n2. The New Pornographers - The End of Medicine\n3. Kaiser Chiefs - Modern Way\n")
+  print("Enter 1 for Bloodsweet, 2 for The End of Medicine, 3 for Modern Way.")
+  choice = input("Enter song: ")
+  if choice == '1':
+    print("\nYou are now playing Bloodsweet by Scapegoat Wax.")
+  elif choice == '2':
+    print("\nYou are now playing The End of Medicine by The New Pornographers.")
+  elif choice == '3': 
+    print("\nYou are now playing Modern Way by Kaiser Chiefs.")
+  else:
+    print('Please choose between 1, 2, or 3! Try again.')
+
+elif choice == '2':
+  print("You have chosen rock!")
+  print("\nPlease choose a song!")
+  print("1. U2 - Mysterious Ways \n2. COIL - Resurrection \n3. Perfect Circle - Pet\n")
+  print("Enter 1 for Mysterious Ways, 2 for Resurrection, 3 for The End of Medicine.")
+  choice = input("Enter song: ")
+  if choice == '1':
+    print("\nYou are now playing Mysterious Ways by U2.")
+  elif choice == '2':
+    print("\nYou are now playing Resurrection by COIL.")
+  elif choice == '3': 
+    print("\nYou are now playing Pet by Perfect Circle.")
+  else:
+    print('Please choose between 1, 2, or 3! Try again.')
+
+
+elif choice == '3':
+  print("You have chosen Punk!")
+  print("\nPlease choose a song!")
+  print("1. Republica - Ready to Go \n2. No Doubt - Hella Good \n3. Rancid - Ruby Soho")
+  print("Enter 1 for Ready to Go, 2 for Hella Good, 3 for Ruby Soho.")
+  
+  choice = input("Enter song: ")
+  if choice == '1':
+    print("\nYou are now playing Ready to Go by Republica.")
+  elif choice == '2':
+    print("\nYou are now playing Hella Good by No Doubt.")
+  elif choice == '3': 
+    print("\nYou are now playing Ruby Soho by Rancid.")
+  else:
+    print('Please choose between 1, 2, or 3! Try again.')
+
+else:
+  print('Please choose between 1, 2, or 3! Try again.')
